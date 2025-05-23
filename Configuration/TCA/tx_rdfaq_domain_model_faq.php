@@ -44,8 +44,8 @@ return [
                 'items' => [
                     ['', 0],
                 ],
-                'foreign_table' => 'tx_faq_domain_model_faq',
-                'foreign_table_where' => 'AND {#tx_faq_domain_model_faq}.{#pid}=###CURRENT_PID### AND {#tx_faq_domain_model_faq}.{#sys_language_uid} IN (-1,0)',
+                'foreign_table' => 'tx_rdfaq_domain_model_faq',
+                'foreign_table_where' => 'AND {#tx_rdfaq_domain_model_faq}.{#pid}=###CURRENT_PID### AND {#tx_rdfaq_domain_model_faq}.{#sys_language_uid} IN (-1,0)',
             ],
         ],
         'l10n_diffsource' => [
