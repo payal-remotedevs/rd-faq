@@ -210,7 +210,7 @@
                         <config>
                             <type>select</type>
                             <renderType>selectSingle</renderType>
-                            <itemsProcFunc>RD\Faq\Hooks\ItemsProcFunc->userTemplateLayout</itemsProcFunc>
+                            <itemsProcFunc>RD\RdFaq\Hooks\ItemsProcFunc->userTemplateLayout</itemsProcFunc>
                             <items>
                                 <numIndex index="0" type="array">
                                     <label />
